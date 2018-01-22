@@ -1,0 +1,30 @@
+Command line:
+   LogicUnit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54094
+
+Mon May 09 07:57:55 2016
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 834.925 Meg
+
+ Total Signals          : 301
+ Total Nets             : 423
+ Total Signal Drivers   : 298
+ Total Blocks           : 200
+ Total Primitive Blocks : 161
+ Total Processes        : 295
+ Total Traceable Variables  : 167
+ Total Scalar Nets and Variables : 942
+Total Line Count : 184
+Total Line Count : 184
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 677.638 Meg
+
+Mon May 09 08:09:07 2016
+

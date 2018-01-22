@@ -1,0 +1,29 @@
+Command line:
+   FirstMipsVersion_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52922
+
+Tue May 17 11:19:42 2016
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 839.238 Meg
+
+ Total Signals          : 615
+ Total Nets             : 1813
+ Total Signal Drivers   : 503
+ Total Blocks           : 308
+ Total Primitive Blocks : 233
+ Total Processes        : 500
+ Total Traceable Variables  : 233
+ Total Scalar Nets and Variables : 2414
+Total Line Count : 455
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 681.951 Meg
+
+Tue May 17 11:26:46 2016
+

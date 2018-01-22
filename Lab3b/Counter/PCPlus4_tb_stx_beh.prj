@@ -1,0 +1,5 @@
+vhdl isim_temp "FULL_ADDER.vhd"
+vhdl isim_temp "Register.vhd"
+vhdl isim_temp "ADDER.vhd"
+vhdl isim_temp "PCPlus4.vhd"
+vhdl isim_temp "PCPlus4_tb.vhd"

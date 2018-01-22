@@ -1,0 +1,8 @@
+vhdl work "FULL_ADDER.vhd"
+vhdl work "ADDER.vhd"
+vhdl work "ZeroExtend.vhd"
+vhdl work "OrUnit.vhd"
+vhdl work "Multiplexer.vhd"
+vhdl work "ArithmeticUnit.vhd"
+vhdl work "AndUnit.vhd"
+vhdl work "LogicUnit.vhd"

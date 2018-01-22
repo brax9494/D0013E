@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.xst" -ofn "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.syr" 
+xst -intstyle ise -ifn "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.xst" -ofn "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.syr" 

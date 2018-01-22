@@ -1,0 +1,124 @@
+V3 67
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ADDER.vhd" 2016/04/25.09:48:38 P.49d
+EN work/ADDER 1462270429 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ADDER.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ADDER/Behavioral 1462270430 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ADDER.vhd" \
+      EN work/ADDER 1462270429 CP FULL_ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/AndUnit.vhd" 2016/04/25.10:13:08 P.49d
+EN work/AndUnit 1462270431 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/AndUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/AndUnit/Behavioral 1462270432 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/AndUnit.vhd" \
+      EN work/AndUnit 1462270431
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ArithmeticUnit.vhd" 2016/04/25.10:11:02 P.49d
+EN work/ArithmeticUnit 1462270435 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ArithmeticUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ArithmeticUnit/Behavioral 1462270436 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ArithmeticUnit.vhd" \
+      EN work/ArithmeticUnit 1462270435 CP ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ControlUnit.vhd" 2016/05/02.13:13:13 P.49d
+EN work/ControlUnit 1462270457 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ControlUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ControlUnit/Behavioral 1462270458 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ControlUnit.vhd" \
+      EN work/ControlUnit 1462270457
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion.vhd" 2016/05/02.13:30:56 P.49d
+EN work/FirstMipsVersion 1462270459 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/FirstMipsVersion/Behavioral 1462270460 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion.vhd" \
+      EN work/FirstMipsVersion 1462270459 CP PCPlus4 CP programmemory \
+      CP Multiplexer2_1 CP Regfile CP SignExtend CP Multiplexer2_1_32 CP LogicUnit \
+      CP ControlUnit
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FULL_ADDER.vhd" 2016/04/19.15:06:14 P.49d
+EN work/FULL_ADDER 1462270427 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FULL_ADDER.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/FULL_ADDER/Behavioral 1462270428 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FULL_ADDER.vhd" \
+      EN work/FULL_ADDER 1462270427
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/LogicUnit.vhd" 2016/04/26.15:10:34 P.49d
+EN work/LogicUnit 1462270455 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/LogicUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/LogicUnit/Behavioral 1462270456 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/LogicUnit.vhd" \
+      EN work/LogicUnit 1462270455 CP AndUnit CP OrUnit CP ArithmeticUnit \
+      CP ZeroExtend CP Multiplexer
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer.vhd" 2016/04/25.11:06:52 P.49d
+EN work/Multiplexer 1462270439 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer/Behavioral 1462270440 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer.vhd" \
+      EN work/Multiplexer 1462270439
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1.vhd" 2016/05/02.12:22:19 P.49d
+EN work/Multiplexer2_1 1462270447 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer2_1/Behavioral 1462270448 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1.vhd" \
+      EN work/Multiplexer2_1 1462270447
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1_32.vhd" 2016/05/02.12:51:20 P.49d
+EN work/Multiplexer2_1_32 1462270453 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1_32.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer2_1_32/Behavioral 1462270454 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1_32.vhd" \
+      EN work/Multiplexer2_1_32 1462270453
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/OrUnit.vhd" 2016/04/25.10:13:00 P.49d
+EN work/OrUnit 1462270433 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/OrUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/OrUnit/Behavioral 1462270434 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/OrUnit.vhd" \
+      EN work/OrUnit 1462270433
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/PCPlus4.vhd" 2016/04/26.10:01:56 P.49d
+EN work/PCPlus4 1462270443 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/PCPlus4.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/PCPlus4/Behavioral 1462270444 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/PCPlus4.vhd" \
+      EN work/PCPlus4 1462270443 CP MyRegister CP ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/programmemory.vhd" 2016/05/02.10:27:20 P.49d
+EN work/programmemory 1462270445 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/programmemory.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/programmemory/behav 1462270446 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/programmemory.vhd" \
+      EN work/programmemory 1462270445
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Regfile.vhd" 2016/05/02.10:28:01 P.49d
+EN work/Regfile 1462270449 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Regfile.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/Regfile/behav 1462270450 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Regfile.vhd" \
+      EN work/Regfile 1462270449
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Register.vhd" 2016/04/26.15:02:09 P.49d
+EN work/MyRegister 1462270441 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Register.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/MyRegister/Behavioral 1462270442 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Register.vhd" \
+      EN work/MyRegister 1462270441
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/SignExtend.vhd" 2016/05/02.11:09:17 P.49d
+EN work/SignExtend 1462270451 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/SignExtend.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/SignExtend/Behavioral 1462270452 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/SignExtend.vhd" \
+      EN work/SignExtend 1462270451
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ZeroExtend.vhd" 2016/04/25.10:25:05 P.49d
+EN work/ZeroExtend 1462270437 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ZeroExtend.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ZeroExtend/Behavioral 1462270438 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ZeroExtend.vhd" \
+      EN work/ZeroExtend 1462270437

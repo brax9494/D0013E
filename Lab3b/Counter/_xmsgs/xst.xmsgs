@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd</arg>&quot; line <arg fmt="%d" index="2">30</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">C</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADDER</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd</arg>&quot; line <arg fmt="%d" index="2">30</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">V</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADDER</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Register_1/Q_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PCPlus4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Register_1/Q_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PCPlus4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

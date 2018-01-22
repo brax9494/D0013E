@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion_tb_isim_beh.exe" -prj "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion_tb_beh.prj" "work.FirstMipsVersion_tb" 

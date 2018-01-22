@@ -1,0 +1,8 @@
+work	"ADDER.vhd"
+work	"AndUnit.vhd"
+work	"ArithmeticUnit.vhd"
+work	"FULL_ADDER.vhd"
+work	"LogicUnit.vhd"
+work	"Multiplexer.vhd"
+work	"OrUnit.vhd"
+work	"ZeroExtend.vhd"

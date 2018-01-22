@@ -1,0 +1,53 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion_tb_isim_beh.exe -prj C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion_tb_beh.prj work.FirstMipsVersion_tb 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FULL_ADDER.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ADDER.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ZeroExtend.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Register.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/OrUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ArithmeticUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/AndUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/SignExtend.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Regfile.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/programmemory.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/PCPlus4.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1_32.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/Multiplexer2_1.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/LogicUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/ControlUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion.vhd" into library work
+Parsing VHDL file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity MyRegister [myregister_default]
+Compiling architecture behavioral of entity FULL_ADDER [full_adder_default]
+Compiling architecture behavioral of entity ADDER [adder_default]
+Compiling architecture behavioral of entity PCPlus4 [pcplus4_default]
+Compiling architecture behav of entity programmemory [programmemory_default]
+Compiling architecture behavioral of entity Multiplexer2_1 [multiplexer2_1_default]
+Compiling architecture behav of entity Regfile [regfile_default]
+Compiling architecture behavioral of entity SignExtend [signextend_default]
+Compiling architecture behavioral of entity Multiplexer2_1_32 [multiplexer2_1_32_default]
+Compiling architecture behavioral of entity AndUnit [andunit_default]
+Compiling architecture behavioral of entity OrUnit [orunit_default]
+Compiling architecture behavioral of entity ArithmeticUnit [arithmeticunit_default]
+Compiling architecture behavioral of entity ZeroExtend [zeroextend_default]
+Compiling architecture behavioral of entity Multiplexer [multiplexer_default]
+Compiling architecture behavioral of entity LogicUnit [logicunit_default]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity FirstMipsVersion [firstmipsversion_default]
+Compiling architecture behavior of entity firstmipsversion_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 39 VHDL Units
+Built simulation executable C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 4/Lab4/FirstMipsVersion_tb_isim_beh.exe
+Fuse Memory Usage: 34608 KB
+Fuse CPU Usage: 1858 ms

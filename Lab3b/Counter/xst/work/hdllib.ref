@@ -1,0 +1,8 @@
+EN adder NULL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/ADDER.vhd" sub00/vhpl02 1461682431
+AR pcplus4 behavioral "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd" sub00/vhpl07 1461682434
+AR myregister behavioral "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/Register.vhd" sub00/vhpl05 1461682430
+EN pcplus4 NULL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd" sub00/vhpl06 1461682433
+EN myregister NULL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/Register.vhd" sub00/vhpl04 1461682429
+EN full_adder NULL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/FULL_ADDER.vhd" sub00/vhpl00 1461682427
+AR adder behavioral "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/ADDER.vhd" sub00/vhpl03 1461682432
+AR full_adder behavioral "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/FULL_ADDER.vhd" sub00/vhpl01 1461682428

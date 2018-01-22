@@ -1,0 +1,65 @@
+V3 34
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ADDER.vhd" 2016/04/25.09:48:38 P.49d
+EN work/ADDER 1461575272 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ADDER.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ADDER/Behavioral 1461575273 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ADDER.vhd" \
+      EN work/ADDER 1461575272 CP FULL_ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/AndUnit.vhd" 2016/04/25.10:13:08 P.49d
+EN work/AndUnit 1461575274 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/AndUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/AndUnit/Behavioral 1461575275 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/AndUnit.vhd" \
+      EN work/AndUnit 1461575274
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ArithmeticUnit.vhd" 2016/04/25.10:11:02 P.49d
+EN work/ArithmeticUnit 1461575278 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ArithmeticUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ArithmeticUnit/Behavioral 1461575279 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ArithmeticUnit.vhd" \
+      EN work/ArithmeticUnit 1461575278 CP ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/FULL_ADDER.vhd" 2016/04/19.15:06:14 P.49d
+EN work/FULL_ADDER 1461575270 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/FULL_ADDER.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/FULL_ADDER/Behavioral 1461575271 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/FULL_ADDER.vhd" \
+      EN work/FULL_ADDER 1461575270
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/LogicUnit.vhd" 2016/04/25.11:07:38 P.49d
+EN work/LogicUnit 1461575284 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/LogicUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/LogicUnit/Behavioral 1461575285 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/LogicUnit.vhd" \
+      EN work/LogicUnit 1461575284 CP AndUnit CP OrUnit CP ArithmeticUnit \
+      CP ZeroExtend CP Multiplexer
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/Multiplexer.vhd" 2016/04/25.11:06:52 P.49d
+EN work/Multiplexer 1461575282 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/Multiplexer.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer/Behavioral 1461575283 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/Multiplexer.vhd" \
+      EN work/Multiplexer 1461575282
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/NorUnit.vhd" 2016/04/25.10:57:01 P.49d
+EN work/NorUnit 1461574633 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/NorUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/NorUnit/Behavioral 1461574634 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/NorUnit.vhd" \
+      EN work/NorUnit 1461574633
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/OrUnit.vhd" 2016/04/25.10:13:00 P.49d
+EN work/OrUnit 1461575276 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/OrUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/OrUnit/Behavioral 1461575277 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/OrUnit.vhd" \
+      EN work/OrUnit 1461575276
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ZeroExtend.vhd" 2016/04/25.10:25:05 P.49d
+EN work/ZeroExtend 1461575280 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ZeroExtend.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ZeroExtend/Behavioral 1461575281 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/ALU/ZeroExtend.vhd" \
+      EN work/ZeroExtend 1461575280

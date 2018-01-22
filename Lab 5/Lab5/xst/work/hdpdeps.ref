@@ -1,0 +1,132 @@
+V3 71
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ADDER.vhd" 2016/04/25.09:48:38 P.49d
+EN work/ADDER 1463478374 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ADDER.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ADDER/Behavioral 1463478375 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ADDER.vhd" \
+      EN work/ADDER 1463478374 CP FULL_ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/AndUnit.vhd" 2016/04/25.10:13:08 P.49d
+EN work/AndUnit 1463478376 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/AndUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/AndUnit/Behavioral 1463478377 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/AndUnit.vhd" \
+      EN work/AndUnit 1463478376
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ArithmeticUnit.vhd" 2016/05/09.08:01:51 P.49d
+EN work/ArithmeticUnit 1463478380 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ArithmeticUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ArithmeticUnit/Behavioral 1463478381 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ArithmeticUnit.vhd" \
+      EN work/ArithmeticUnit 1463478380 CP ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ControlUnit.vhd" 2016/05/17.11:45:25 P.49d
+EN work/ControlUnit 1463478402 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ControlUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ControlUnit/Behavioral 1463478403 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ControlUnit.vhd" \
+      EN work/ControlUnit 1463478402
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/DataMemory.vhd" 2016/05/17.10:40:57 P.49d
+EN work/DataMemory 1463478404 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/DataMemory.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/DataMemory/Behavioral 1463478405 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/DataMemory.vhd" \
+      EN work/DataMemory 1463478404
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.vhd" 2016/05/17.11:38:14 P.49d
+EN work/FirstMipsVersion 1463478406 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/FirstMipsVersion/Behavioral 1463478407 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FirstMipsVersion.vhd" \
+      EN work/FirstMipsVersion 1463478406 CP PCPlus4 CP programmemory \
+      CP Multiplexer2_1 CP Regfile CP SignExtend CP Multiplexer2_1_32 CP LogicUnit \
+      CP ControlUnit CP DataMemory
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FULL_ADDER.vhd" 2016/04/19.15:06:14 P.49d
+EN work/FULL_ADDER 1463478372 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FULL_ADDER.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/FULL_ADDER/Behavioral 1463478373 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/FULL_ADDER.vhd" \
+      EN work/FULL_ADDER 1463478372
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/LogicUnit.vhd" 2016/05/09.08:09:00 P.49d
+EN work/LogicUnit 1463478400 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/LogicUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/LogicUnit/Behavioral 1463478401 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/LogicUnit.vhd" \
+      EN work/LogicUnit 1463478400 CP AndUnit CP OrUnit CP ArithmeticUnit \
+      CP ZeroExtend CP Multiplexer
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer.vhd" 2016/04/25.11:06:52 P.49d
+EN work/Multiplexer 1463478384 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer/Behavioral 1463478385 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer.vhd" \
+      EN work/Multiplexer 1463478384
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer2_1.vhd" 2016/05/02.12:22:19 P.49d
+EN work/Multiplexer2_1 1463478392 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer2_1.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer2_1/Behavioral 1463478393 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer2_1.vhd" \
+      EN work/Multiplexer2_1 1463478392
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer2_1_32.vhd" 2016/05/02.12:51:20 P.49d
+EN work/Multiplexer2_1_32 1463478398 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer2_1_32.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/Multiplexer2_1_32/Behavioral 1463478399 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Multiplexer2_1_32.vhd" \
+      EN work/Multiplexer2_1_32 1463478398
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/OrUnit.vhd" 2016/04/25.10:13:00 P.49d
+EN work/OrUnit 1463478378 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/OrUnit.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/OrUnit/Behavioral 1463478379 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/OrUnit.vhd" \
+      EN work/OrUnit 1463478378
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/PCPlus4.vhd" 2016/04/26.10:01:56 P.49d
+EN work/PCPlus4 1463478388 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/PCPlus4.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/PCPlus4/Behavioral 1463478389 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/PCPlus4.vhd" \
+      EN work/PCPlus4 1463478388 CP MyRegister CP ADDER
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/programmemory.vhd" 2016/05/17.10:38:38 P.49d
+EN work/programmemory 1463478390 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/programmemory.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/programmemory/behav 1463478391 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/programmemory.vhd" \
+      EN work/programmemory 1463478390
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Regfile.vhd" 2016/05/16.10:57:03 P.49d
+EN work/Regfile 1463478394 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Regfile.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/Regfile/behav 1463478395 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Regfile.vhd" \
+      EN work/Regfile 1463478394
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Register.vhd" 2016/04/26.15:02:09 P.49d
+EN work/MyRegister 1463478386 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Register.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/MyRegister/Behavioral 1463478387 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/Register.vhd" \
+      EN work/MyRegister 1463478386
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/SignExtend.vhd" 2016/05/08.18:27:45 P.49d
+EN work/SignExtend 1463478396 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/SignExtend.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/SignExtend/Behavioral 1463478397 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/SignExtend.vhd" \
+      EN work/SignExtend 1463478396
+FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ZeroExtend.vhd" 2016/04/25.10:25:05 P.49d
+EN work/ZeroExtend 1463478382 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ZeroExtend.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/ZeroExtend/Behavioral 1463478383 \
+      FL "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab 5/Lab5/ZeroExtend.vhd" \
+      EN work/ZeroExtend 1463478382

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ALU.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ADDER.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ADDER.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ADDER.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ADDER.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ADDER.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ADDER.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ADDER.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ADDER.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ADDER_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ADDER_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ADDER_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ADDER_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="AndUnit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="AndUnit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="AndUnit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="AndUnit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AndUnit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="AndUnit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="AndUnit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="AndUnit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="AndUnit_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AndUnit_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AndUnit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ArithmeticUnit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ArithmeticUnit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ArithmeticUnit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ArithmeticUnit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ArithmeticUnit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ArithmeticUnit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ArithmeticUnit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ArithmeticUnit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ArithmeticUnit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ArithmeticUnit_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ArithmeticUnit_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ArithmeticUnit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LogicUnit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LogicUnit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LogicUnit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LogicUnit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LogicUnit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LogicUnit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LogicUnit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LogicUnit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LogicUnit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LogicUnit_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LogicUnit_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LogicUnit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LogicUnit_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LogicUnit_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LogicUnit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Multiplexer.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Multiplexer.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Multiplexer.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Multiplexer.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplexer.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Multiplexer.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Multiplexer.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Multiplexer_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Multiplexer_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplexer_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="NorUnit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="NorUnit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="NorUnit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="NorUnit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="NorUnit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="NorUnit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="NorUnit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="NorUnit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="NorUnit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="NorUnit_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="NorUnit_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="NorUnit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="OrUnit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="OrUnit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="OrUnit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="OrUnit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OrUnit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="OrUnit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="OrUnit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="OrUnit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="OrUnit_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OrUnit_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="OrUnit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ZeroExtend.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ZeroExtend.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ZeroExtend.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ZeroExtend.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ZeroExtend.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ZeroExtend.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ZeroExtend.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ZeroExtend.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ZeroExtend_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ZeroExtend_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ZeroExtend_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ZeroExtend_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1461575593" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1461575593">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461677225" xil_pn:in_ck="9169743223968423956" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1461677225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADDER.vhd"/>
+      <outfile xil_pn:name="AndUnit.vhd"/>
+      <outfile xil_pn:name="ArithmeticUnit.vhd"/>
+      <outfile xil_pn:name="FULL_ADDER.vhd"/>
+      <outfile xil_pn:name="LogicUnit.vhd"/>
+      <outfile xil_pn:name="LogicUnit_tb.vhd"/>
+      <outfile xil_pn:name="Multiplexer.vhd"/>
+      <outfile xil_pn:name="OrUnit.vhd"/>
+      <outfile xil_pn:name="ZeroExtend.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1461655170" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6009599274998089625" xil_pn:start_ts="1461655170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461655170" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2426614837955148763" xil_pn:start_ts="1461655170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575593" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6163141229834166284" xil_pn:start_ts="1461575593">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461677225" xil_pn:in_ck="9169743223968423956" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1461677225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ADDER.vhd"/>
+      <outfile xil_pn:name="AndUnit.vhd"/>
+      <outfile xil_pn:name="ArithmeticUnit.vhd"/>
+      <outfile xil_pn:name="FULL_ADDER.vhd"/>
+      <outfile xil_pn:name="LogicUnit.vhd"/>
+      <outfile xil_pn:name="LogicUnit_tb.vhd"/>
+      <outfile xil_pn:name="Multiplexer.vhd"/>
+      <outfile xil_pn:name="OrUnit.vhd"/>
+      <outfile xil_pn:name="ZeroExtend.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1461677231" xil_pn:in_ck="9169743223968423956" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3220784598703435239" xil_pn:start_ts="1461677225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LogicUnit_tb_beh.prj"/>
+      <outfile xil_pn:name="LogicUnit_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1461682540" xil_pn:in_ck="-1066709658185549006" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1993650332535666295" xil_pn:start_ts="1461682540">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LogicUnit_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1461569742" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1461569742">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575170" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="9100240153664621373" xil_pn:start_ts="1461575170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575170" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6163141229834166284" xil_pn:start_ts="1461575170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575170" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1461575170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575170" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7612716290969287247" xil_pn:start_ts="1461575170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575170" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7824225313153969958" xil_pn:start_ts="1461575170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575170" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2333492055682500222" xil_pn:start_ts="1461575170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461575299" xil_pn:in_ck="2152332921829119105" xil_pn:name="TRANEXT_xstsynthesize_virtex4" xil_pn:prop_ck="1676018398094361956" xil_pn:start_ts="1461575262">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="ADDER.ngr"/>
+      <outfile xil_pn:name="AndUnit.ngr"/>
+      <outfile xil_pn:name="ArithmeticUnit.ngr"/>
+      <outfile xil_pn:name="LogicUnit.lso"/>
+      <outfile xil_pn:name="LogicUnit.ngc"/>
+      <outfile xil_pn:name="LogicUnit.ngr"/>
+      <outfile xil_pn:name="LogicUnit.prj"/>
+      <outfile xil_pn:name="LogicUnit.stx"/>
+      <outfile xil_pn:name="LogicUnit.syr"/>
+      <outfile xil_pn:name="LogicUnit.xst"/>
+      <outfile xil_pn:name="LogicUnit_vhdl.prj"/>
+      <outfile xil_pn:name="LogicUnit_xst.xrpt"/>
+      <outfile xil_pn:name="Multiplexer.ngr"/>
+      <outfile xil_pn:name="OrUnit.ngr"/>
+      <outfile xil_pn:name="ZeroExtend.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

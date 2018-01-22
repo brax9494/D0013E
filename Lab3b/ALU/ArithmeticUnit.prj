@@ -1,0 +1,3 @@
+vhdl work "FULL_ADDER.vhd"
+vhdl work "ADDER.vhd"
+vhdl work "ArithmeticUnit.vhd"

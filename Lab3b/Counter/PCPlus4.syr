@@ -1,0 +1,394 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Reading design: PCPlus4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PCPlus4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PCPlus4"
+Output Format                      : NGC
+Target Device                      : xc4vlx15-12-sf363
+
+---- Source Options
+Top Module Name                    : PCPlus4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Number of Regional Clock Buffers   : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/FULL_ADDER.vhd" in Library work.
+Architecture behavioral of Entity full_adder is up to date.
+Compiling vhdl file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/Register.vhd" in Library work.
+Entity <myregister> compiled.
+Entity <myregister> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/ADDER.vhd" in Library work.
+Architecture behavioral of Entity adder is up to date.
+Compiling vhdl file "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd" in Library work.
+Entity <pcplus4> compiled.
+Entity <pcplus4> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PCPlus4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MyRegister> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADDER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PCPlus4> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd" line 30: Unconnected output port 'C' of component 'ADDER'.
+WARNING:Xst:753 - "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd" line 30: Unconnected output port 'V' of component 'ADDER'.
+Entity <PCPlus4> analyzed. Unit <PCPlus4> generated.
+
+Analyzing Entity <MyRegister> in library <work> (Architecture <behavioral>).
+Entity <MyRegister> analyzed. Unit <MyRegister> generated.
+
+Analyzing Entity <ADDER> in library <work> (Architecture <behavioral>).
+Entity <ADDER> analyzed. Unit <ADDER> generated.
+
+Analyzing Entity <FULL_ADDER> in library <work> (Architecture <behavioral>).
+Entity <FULL_ADDER> analyzed. Unit <FULL_ADDER> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <MyRegister>.
+    Related source file is "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/Register.vhd".
+    Found 32-bit register for signal <Q>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <MyRegister> synthesized.
+
+
+Synthesizing Unit <FULL_ADDER>.
+    Related source file is "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/FULL_ADDER.vhd".
+    Found 1-bit xor2 for signal <R>.
+    Found 1-bit xor2 for signal <xor_1>.
+Unit <FULL_ADDER> synthesized.
+
+
+Synthesizing Unit <ADDER>.
+    Related source file is "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/ADDER.vhd".
+    Found 1-bit xor2 for signal <V>.
+Unit <ADDER> synthesized.
+
+
+Synthesizing Unit <PCPlus4>.
+    Related source file is "C:/Users/Robin Andersson/OneDrive/Skola/D0011E/Lab3b/Counter/PCPlus4.vhd".
+Unit <PCPlus4> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 32-bit register                                       : 1
+# Xors                                                 : 65
+ 1-bit xor2                                            : 65
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+# Xors                                                 : 65
+ 1-bit xor2                                            : 65
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PCPlus4> ...
+
+Optimizing unit <MyRegister> ...
+
+Optimizing unit <ADDER> ...
+WARNING:Xst:1710 - FF/Latch <Register_1/Q_1> (without init value) has a constant value of 0 in block <PCPlus4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Register_1/Q_0> (without init value) has a constant value of 0 in block <PCPlus4>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PCPlus4, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PCPlus4.ngr
+Top Level Output File Name         : PCPlus4
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 34
+
+Cell Usage :
+# BELS                             : 68
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 7
+#      LUT2_L                      : 5
+#      LUT3                        : 5
+#      LUT3_L                      : 4
+#      LUT4                        : 30
+#      LUT4_D                      : 5
+#      LUT4_L                      : 10
+# FlipFlops/Latches                : 30
+#      FDC                         : 30
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 1
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 4vlx15sf363-12 
+
+ Number of Slices:                       34  out of   6144     0%  
+ Number of Slice Flip Flops:             30  out of  12288     0%  
+ Number of 4 input LUTs:                 67  out of  12288     0%  
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    240    14%  
+ Number of GCLKs:                         1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 30    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Reset                              | IBUF                   | 30    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -12
+
+   Minimum period: 2.295ns (Maximum Frequency: 435.815MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 3.897ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 2.295ns (frequency: 435.815MHz)
+  Total number of paths / destination ports: 465 / 30
+-------------------------------------------------------------------------
+Delay:               2.295ns (Levels of Logic = 3)
+  Source:            Register_1/Q_26 (FF)
+  Destination:       Register_1/Q_31 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: Register_1/Q_26 to Register_1/Q_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.272   0.564  Register_1/Q_26 (Register_1/Q_26)
+     LUT4:I0->O            4   0.147   0.564  ADDER_1/adders[24].adder_instance/and_11_SW0 (N6)
+     LUT4:I0->O            1   0.147   0.436  ADDER_1/adders[21].adder_instance/and_11_SW9 (N66)
+     LUT4:I2->O            1   0.147   0.000  ADDER_1/adders[31].adder_instance/Mxor_R_Result1 (Q_output<31>)
+     FDC:D                     0.017          Register_1/Q_31
+    ----------------------------------------
+    Total                      2.295ns (0.730ns logic, 1.565ns route)
+                                       (31.8% logic, 68.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 30 / 30
+-------------------------------------------------------------------------
+Offset:              3.897ns (Levels of Logic = 1)
+  Source:            Register_1/Q_11 (FF)
+  Destination:       Q<11> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: Register_1/Q_11 to Q<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             11   0.272   0.370  Register_1/Q_11 (Register_1/Q_11)
+     OBUF:I->O                 3.255          Q_11_OBUF (Q<11>)
+    ----------------------------------------
+    Total                      3.897ns (3.527ns logic, 0.370ns route)
+                                       (90.5% logic, 9.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 29.00 secs
+Total CPU time to Xst completion: 28.86 secs
+ 
+--> 
+
+Total memory usage is 319444 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

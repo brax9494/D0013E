@@ -1,0 +1,4 @@
+vhdl work "FULL_ADDER.vhd"
+vhdl work "Register.vhd"
+vhdl work "ADDER.vhd"
+vhdl work "PCPlus4.vhd"
